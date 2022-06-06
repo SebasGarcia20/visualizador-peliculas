@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+
+
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    background-color: #080f28;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    padding: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    font-size: 1.5rem;
+    color: #9965ca;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+    font-size: 3rem;
+    margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-grid {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+    align-content: center;
+    align-items: center;
+    background-color: #282108;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px #041b0f;
+
+    height: 0%;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+
+}
+
+.card p {
+    background-color: #f0218e;
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+}
+
+.card img {
+    height: 30%;
+}
+
+.form {
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    display: flex ;
+}
+
+input {
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin: 25px 20px;
+    box-sizing: border-box;
+    background-color: #9965ca;
+    color: antiquewhite;
 }
