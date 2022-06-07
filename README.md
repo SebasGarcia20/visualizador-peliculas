@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Test para aspirar al área de front-end en NativApps
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Se desarrolla un visualizador de peliculas con los filtros de título "love" y año "2020", donde se listan las peliculas con ese filtro haciendo uso de la API www.omdbapi.com
 
-## Available Scripts
+## Tecnologías implementadas
 
-In the project directory, you can run:
+EL proyecto se desarrollo hacinedo uso de **ReactJS** (18.1.0)
 
-### `npm start`
+### Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visualizar listado de películas lanzadas durante el año 2020 que contengan en su título la palabra “Love”, además de contar con los siguientes critoerios de aceptación, 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Consulta exitosa: Se presentará la lista de películas con los campos indicados.
+* Error en consulta: Se presentará mensaje de error al usuario con el texto “Error al obtener listado. Intente nuevamente” y botón “Aceptar” para asegurar que el usuario leyó el mensaje.
 
-### `npm test`
+## Instalación y ejecución
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Es necesario tener instalado [**NodeJs**](https://nodejs.org/) y seguir los siguientes pasos:
 
-### `npm run build`
+Clonar el repositorio
+```shell
+git clone https://github.com/SebasGarcia20/test-frontend-meli.git
+```
+Posicionar se dentro de la raíz del proyecto y ejecutar el comando npm install, así instalar las dependencias del proyecto
+```shell
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Iniciar el proyecto haciendo uso de
+```shell
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contacto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para contactarme puede ser por los siguientes medios:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Correo: garciaflorez.sebastian@gmail.com
+* linkedin: [sebasflorez99](https://www.linkedin.com/in/sebasflorez99/)
