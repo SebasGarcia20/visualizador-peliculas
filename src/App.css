@@ -1,10 +1,15 @@
-
+:root {
+    --background-color: #080f28;
+    --h1-color: #636d93;
+    --background-color-input: #081c28;
+    --field-label-color: #636d93;
+}
 
 
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
-    background-color: #080f28;
+    background-color: var(--background-color);
 }
 
 body {
@@ -13,7 +18,7 @@ body {
 
 h1 {
     font-size: 1.5rem;
-    color: #9965ca;
+    color: var(--h1-color);
 }
 
 h3 {
@@ -29,38 +34,40 @@ h3 {
 }
 
 .card {
+    position: relative;
+    width: 250px;
     align-content: center;
     align-items: center;
-    background-color: #282108;
+    background-color: var(--background-color);
     border-radius: 10px;
-    box-shadow: 0px 3px 5px #041b0f;
-
-    height: 0%;
+    height: 450px;
     justify-content: center;
     margin-bottom: 20px;
-    margin-right: 20px;
+    margin-right: 25px;
     overflow: hidden;
 
 }
 
 .card p {
-    background-color: #f0218e;
     flex: 1;
     font-size: 1.5rem;
     margin-top: 5px;
     padding: 5px 20px 0px 20px;
     text-align: center;
+    color: white;
 }
 
 .card img {
-    height: 30%;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
 }
 
 .form {
     align-items: center;
     justify-content: space-between;
-    color: white;
-    display: flex ;
+    color: var(--field-label-color);
+    display: flex;
 }
 
 input {
@@ -68,6 +75,56 @@ input {
     padding: 7px 15px;
     margin: 25px 20px;
     box-sizing: border-box;
-    background-color: #9965ca;
-    color: antiquewhite;
+    background-color: var(--background-color-input);
+    color: white;
+}
+
+.floated-text-img-right {
+    position: absolute;
+    bottom: 106px;
+    right: 6px;
+    color: white;
+    background-color: var(--h1-color);
+    border-radius: 100px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.floated-text-img-left {
+    position: absolute;
+    bottom: 106px;
+    left: 6px;
+    color: white;
+    background-color: var(--h1-color);
+    border-radius: 100px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+button {
+    background-color: var(--field-label-color); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.loading-text {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
 }

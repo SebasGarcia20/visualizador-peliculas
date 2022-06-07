@@ -1,16 +1,13 @@
 import React from 'react'
 
-export const MoviesGridItem = ({title, poster, type, year}) => {
-    console.log("title" + title)
-    console.log("poster" + poster)
-    console.log("type"+ type)
-    console.log("year" + year)
+export const MoviesGridItem = ({ title, poster, type, year }) => {
+
     return (
-        <div className='card'>
+        <div className='card animate__animated animate__backInUp'>
             <img src={poster} alt={title} />
+            <span className='floated-text-img-right'>{year}</span>
             <p> {title} </p>
-            <p>{type}</p>
-            <p>{year}</p>
+            <span className='floated-text-img-left'>{type}</span>
         </div>
     )
 }

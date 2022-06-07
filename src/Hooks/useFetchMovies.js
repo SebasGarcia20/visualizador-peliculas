@@ -8,7 +8,7 @@ export const useFetchMovies = () => {
         data: [],
         loading: true
     })
-
+    
     useEffect(() => {
         getMovies()
             .then(movies => {

@@ -5,7 +5,7 @@ import './App.css'
 const App = () => {
   return (
     <>
-      <h1>Visualizar Peliculas del año 2020</h1>
+      <h1>Visualizador de películas y series</h1>
       <hr/>
       <MoviesGrid/>
     </>
